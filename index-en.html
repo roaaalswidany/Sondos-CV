@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV – Sondos Ibrahim Al-Sweidany</title>
+  <meta name="description" content="Online CV of Sondos Ibrahim Al-Sweidany – Law graduate (2021), humanitarian activist, experienced in drafting legal memos, reports, providing legal consultations, and contributing to financial laws and systems." />
+  <style>
+    :root{
+      --bg:#0f172a;
+      --card:#111827;
+      --muted:#94a3b8;
+      --text:#e5e7eb;
+      --acc:#22d3ee;
+      --acc-2:#a78bfa;
+      --chip:#1f2937;
+      --chip-br:#374151;
+      --br:18px;
+      --shadow:0 10px 30px rgba(0,0,0,.25);
+      --container:1024px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+      background:linear-gradient(160deg,#0b1226,#0f172a 30%,#0b1226 100%);
+      color:var(--text);
+      line-height:1.65;
+    }
+    .container{max-width:var(--container);margin:auto;padding:24px}
+    header.hero{
+      display:grid;gap:18px;align-items:center;
+      grid-template-columns:120px 1fr;
+      background:linear-gradient(135deg,rgba(167,139,250,.08),rgba(34,211,238,.08));
+      border:1px solid rgba(255,255,255,.06);
+      border-radius:var(--br);
+      padding:20px;box-shadow:var(--shadow);
+    }
+    .avatar{
+      width:110px;height:110px;border-radius:50%;
+      background: radial-gradient(circle at 30% 30%, rgba(34,211,238,.7), rgba(167,139,250,.7));
+      display:flex;align-items:center;justify-content:center;
+      font-weight:800;font-size:40px;color:#0b1226;border:3px solid rgba(255,255,255,.15);
+    }
+    h1{margin:0;font-size:1.8rem}
+    .subtitle{color:var(--muted);margin-top:6px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .chip{background:var(--chip);border:1px solid var(--chip-br);padding:6px 10px;border-radius:999px;font-size:.9rem}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+    .btn{
+      appearance:none;border:1px solid transparent;cursor:pointer;text-decoration:none;
+      padding:10px 14px;border-radius:12px;font-weight:600;display:inline-flex;gap:8px;align-items:center;
+      background:linear-gradient(135deg,var(--acc),var(--acc-2));color:#08101f;box-shadow:var(--shadow);
+    }
+    .btn.secondary{background:#0b1226;color:var(--text);border:1px solid rgba(255,255,255,.12)}
+    .grid{display:grid;gap:16px;margin-top:18px}
+    @media(min-width:900px){.grid{grid-template-columns:1.2fr .8fr}}
+    section.card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:var(--br);padding:18px;box-shadow:var(--shadow)}
+    section.card h2{margin-top:0;font-size:1.2rem}
+    ul{margin:0;padding-inline-start:1.2rem}
+    li{margin:.35rem 0}
+    .kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .kpi{background:#0b1226;border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:14px;text-align:center}
+    .kpi .v{font-size:1.4rem;font-weight:800}
+    footer{opacity:.8;font-size:.9rem;margin-top:22px;text-align:center}
+
+    @media print{
+      body{background:#fff;color:#000}
+      header.hero, section.card{box-shadow:none;border-color:#ccc;background:#fff}
+      .btn, .actions{display:none !important}
+      .chip{border-color:#ccc}
+      a{color:#000}
+    }
+  </style>
+  <script>
+    function openWhatsApp(){
+      const number = '+963984198703'.replace(/\D/g,'');
+      const url = `https://wa.me/${number}`;
+      window.open(url,'_blank');
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="avatar" aria-hidden="true">S</div>
+      <div>
+        <h1>Sondos Ibrahim Al-Sweidany</h1>
+        <div class="subtitle">Law Graduate (2021) – Faculty of Law, Damascus University – Daraa Branch</div>
+        <div class="chips">
+          <span class="chip">Humanitarian Activist</span>
+          <span class="chip">Legal Consultations</span>
+          <span class="chip">Drafting Memos & Reports</span>
+          <span class="chip">Financial Laws & Systems</span>
+        </div>
+        <div class="actions">
+          <a class="btn" href="javascript:window.print()">🖨 Download PDF</a>
+          <a class="btn secondary" href="tel:+963984198703">📞 Call</a>
+          <a class="btn secondary" href="mailto:sondosswidany1@gmail.com">✉️ Email</a>
+          <button class="btn secondary" onclick="openWhatsApp()">💬 WhatsApp</button>
+          <a class="btn secondary" href="index.html">AR</a>
+        </div>
+      </div>
+    </header>
+    <main class="grid">
+      <section class="card">
+        <h2>About Me</h2>
+        <p>
+          Law graduate (2021), passionate about humanitarian work and applying law to serve society. Skilled in drafting legal memos and administrative reports, providing consultations, and contributing to financial systems. Seeking opportunities to apply my legal and administrative skills within developmental institutions, governmental bodies, or NGOs.
+        </p>
+        <div class="kpis">
+          <div class="kpi"><div class="v">2021</div><div class="l">Graduation Year</div></div>
+          <div class="kpi"><div class="v">Law</div><div class="l">Major</div></div>
+          <div class="kpi"><div class="v">Daraa</div><div class="l">University Branch</div></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Contact Information</h2>
+        <ul>
+          <li><strong>Phone:</strong> <a href="tel:+963984198703">+963 984 198 703</a></li>
+          <li><strong>Email:</strong> <a href="mailto:sondosswidany1@gmail.com">sondosswidany1@gmail.com</a></li>
+          <li><strong>Location:</strong> Syria – Daraa</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Education</h2>
+        <ul>
+          <li>Bachelor of Law – <strong>Faculty of Law, Damascus University – Daraa Branch</strong> (2021)</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Experience & Activities</h2>
+        <ul>
+          <li>Humanitarian activist.</li>
+          <li>Drafting and writing legal memos professionally.</li>
+          <li>Providing legal consultations and contributing to systematic solutions.</li>
+          <li>Drafting administrative reports and correspondence.</li>
+          <li>Contributing to drafting financial laws and systems.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Skills</h2>
+        <ul>
+          <li>Accurate legal writing and building legal arguments.</li>
+          <li>Preparing official memos and reports.</li>
+          <li>Analyzing financial systems and regulations.</li>
+          <li>Organizational and coordination skills in team environments.</li>
+          <li>Effective communication and client service.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Languages</h2>
+        <ul>
+          <li>Arabic: Native</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      © <span id="y"></span> Sondos Ibrahim Al-Sweidany — Online CV.
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
